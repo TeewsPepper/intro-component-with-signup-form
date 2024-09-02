@@ -34,16 +34,23 @@ function Formulario() {
 
   return (
     <div className="container">
+      <div className="header">
+
       <h1>Learn to code by watching others</h1>
       <p className="paragraph">
         See how experienced developers solve problems in real-time. Watching
         scripted tutorials is great, but understanding how developers think is
         invaluable.
       </p>
+      </div>
+      
+      
+
+      <div className="desktop-container">
+
       <div className="price-info">
         <strong>Try it free 7 days</strong> then $20/mo. thereafter
       </div>
-
       
 
       <form className="form" onSubmit={handleSubmit(onSubmit)}>
@@ -174,6 +181,7 @@ function Formulario() {
           <a href="#">Terms and Services</a>
         </p>
       </form>
+      </div>
     </div>
   );
 }
