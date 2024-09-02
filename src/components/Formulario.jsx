@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import DOMPurify from "dompurify";
-import warningIcon from "../assets/images/icon-error.svg"; 
+import warningIcon from "../../public/images/icon-error.svg"; 
 import "../styles/Formulario.css";
 
 function Formulario() {
@@ -11,6 +11,7 @@ function Formulario() {
     formState: { errors },
     reset,
   } = useForm();
+
   const [successMessage, setSuccessMessage] = useState("");
 
   const onSubmit = (data) => {

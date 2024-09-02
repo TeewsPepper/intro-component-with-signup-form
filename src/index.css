@@ -19,7 +19,7 @@ html {
 
 body {
     
-    background-image: url(src/assets/images/bg-intro-mobile.png);
+    background-image: url(/images/bg-intro-mobile.png);
     background-color: var(--Red);
     display: flex;
     justify-content: center;
@@ -31,7 +31,7 @@ body {
 }
 @media (min-width: 600px) {
     body {
-        background-image: url(src/assests/images/bg-intro-desktop.png);
+        background-image: url(/images/bg-intro-desktop.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
